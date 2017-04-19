@@ -1,0 +1,16 @@
+{
+  "name": "GGC FLL",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Mike Deiters",
+  "scripts": {
+    "compile": "grunt js && grunt css"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
