@@ -10,7 +10,11 @@ C: 3% M: 0% Y: 0% K: 32%
 Madeira: 1011
 HEX: #a5acb0
 
+<<<<<<< HEAD
 GGC Black
+=======
+GGC BLACK 
+>>>>>>> origin/master
 Black
 C: 3% M: 0% Y: 0% K: 100%
 Madeira: 1000
@@ -20,3 +24,5 @@ GGC SILVER
 Pantone® PMS: 877
 Madeira: 1011
 HEX: #a5acb0
+
+This rocks
