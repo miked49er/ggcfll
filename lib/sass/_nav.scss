@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 42%, 23% 100%, 0 68%);
+  background-color: $ggcgreen;
+
+  h1 {
+    float: left;
+  } // h1
+} // navbar
+.navlinks {
+  float: right;
+  line-height: 150%;
+
+  a:hover {
+    border: solid $lightblue 1px;
+    border-top: solid $lightblue 10px;
+  } // a:hover
+} // navlinks
+
+.footerbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100px;
+  clip-path: polygon(77% 0, 100% 42%, 100% 100%, 0 100%, 0 68%);
+  background-color: $ggcgreen;
+
+  .navlinks {
+    a:hover {
+      border: solid $lightblue 1px;
+      border-bottom: solid $lightblue 10px;
+    } // a:hover
+  } // navlinks
+} // footerbar
