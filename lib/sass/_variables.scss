@@ -1,0 +1,18 @@
+$font-primary : 'Anton', monospace;
+$font-secondary : Roboto, sans-serif;
+
+$layout: gutter(4);
+
+$ggcgrey: #a5acb0;
+$ggcgreen: #00704a;
+$lightblue: #63cae1;
+
+$default-transition-property: all;
+$default-transition-duration: 1s;
+$default-transition-function: ease;
+
+$slick-font-path: "/public/bower_components/slick-carousel/slick/fonts/" !important;
+$slick-font-family: $font-primary;
+$slick-loader-path: "/public/bower_components/slick-carousel/" !important;
+$slick-dot-color: #fff;
+$slick-dot-size: 50px;
