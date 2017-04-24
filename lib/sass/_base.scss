@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Anton%7CRoboto');
+
+
+body {
+  @include clearfix;
+  font-family: $font-secondary;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 110%;
+  background: $ggcgrey;
+  overflow-y: scroll;
+  cursor: default;
+} // body
+
+#{headings()} {
+  font-family: $font-primary;
+  color: #fff;
+} // headings
+
+h1 {
+  font-size: 2rem;
+  line-height: 140%;
+  padding-left: 1.2rem;
+} // h1
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 160%;
+  text-align: center;
+} // h2
+
+a {
+  @include transition;
+  font-size: .9rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 .3rem;
+
+  &:hover {
+    color: $lightblue;
+  } // a:hover
+} // a
+
+p {
+  color: #fff;
+} // p
+
+section {
+  width: 90%;
+  padding: 100px 0;
+  margin: auto;
+} // section
