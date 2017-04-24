@@ -1,0 +1,28 @@
+GGC Green
+Pantone® PMS: 3425
+C: 100% M: 10% Y: 69% K: 44%
+Madeira: 1250
+HEX: #00704a
+
+GGC GRAY
+Pantone® PMS: 429
+C: 3% M: 0% Y: 0% K: 32%
+Madeira: 1011
+HEX: #a5acb0
+
+<<<<<<< HEAD
+GGC Black
+=======
+GGC BLACK 
+>>>>>>> origin/master
+Black
+C: 3% M: 0% Y: 0% K: 100%
+Madeira: 1000
+HEX: #000000
+
+GGC SILVER
+Pantone® PMS: 877
+Madeira: 1011
+HEX: #a5acb0
+
+This rocks
