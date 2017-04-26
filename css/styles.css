@@ -231,14 +231,26 @@ body:after {
 
 /* line 1, ../lib/sass/_content.scss */
 .underline {
-  width: 60%;
+  width: 90%;
   height: 1px;
   background-color: #fff;
   margin: auto;
   margin-bottom: .8rem;
 }
+@media (min-width: 30em) {
+  /* line 1, ../lib/sass/_content.scss */
+  .underline {
+    width: 60%;
+  }
+}
+@media (min-width: 56em) {
+  /* line 1, ../lib/sass/_content.scss */
+  .underline {
+    width: 40%;
+  }
+}
 
-/* line 9, ../lib/sass/_content.scss */
+/* line 17, ../lib/sass/_content.scss */
 .highlight {
   display: block;
   width: 100%;
