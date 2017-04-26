@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Anton%7CRoboto");
+@import url("https://fonts.googleapis.com/css?family=Play%7CRoboto");
 /* line 5, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -80,7 +80,7 @@ body {
 
 /* line 15, ../lib/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Anton", monospace;
+  font-family: "Play", monospace;
   color: #fff;
 }
 
@@ -133,7 +133,7 @@ section {
   box-sizing: border-box;
 }
 
-/* line 21, ../lib/sass/_layout.scss */
+/* line 22, ../lib/sass/_layout.scss */
 body {
   max-width: 100%;
   margin-left: auto;
@@ -146,42 +146,67 @@ body:after {
   clear: both;
 }
 
-/* line 25, ../lib/sass/_layout.scss */
+/* line 26, ../lib/sass/_layout.scss */
 .hide {
   display: none !important;
 }
 
-/* line 29, ../lib/sass/_layout.scss */
+/* line 30, ../lib/sass/_layout.scss */
 .active {
   display: block !important;
 }
 
 /* line 1, ../lib/sass/_nav.scss */
 .navbar {
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   width: 100%;
-  height: 100px;
+  height: 110px;
   position: absolute;
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 42%, 23% 100%, 0 68%);
   background-color: #00704a;
 }
-/* line 9, ../lib/sass/_nav.scss */
+/* line 10, ../lib/sass/_nav.scss */
 .navbar h1 {
   float: left;
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+@media (min-width: 30em) {
+  /* line 1, ../lib/sass/_nav.scss */
+  .navbar {
+    height: 100px;
+  }
+  /* line 19, ../lib/sass/_nav.scss */
+  .navbar h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
 }
 
-/* line 13, ../lib/sass/_nav.scss */
+/* line 26, ../lib/sass/_nav.scss */
 .navlinks {
-  float: right;
-  line-height: 150%;
+  float: left;
+  line-height: 120%;
+  margin-left: 15px;
 }
-/* line 17, ../lib/sass/_nav.scss */
+/* line 31, ../lib/sass/_nav.scss */
 .navlinks a:hover {
   border: solid #63cae1 1px;
   border-top: solid #63cae1 10px;
 }
+@media (min-width: 37.5em) {
+  /* line 26, ../lib/sass/_nav.scss */
+  .navlinks {
+    float: right;
+    line-height: 160%;
+  }
+}
 
-/* line 23, ../lib/sass/_nav.scss */
+/* line 42, ../lib/sass/_nav.scss */
 .footerbar {
   display: flex;
   justify-content: flex-end;
@@ -191,7 +216,7 @@ body:after {
   clip-path: polygon(77% 0, 100% 42%, 100% 100%, 0 100%, 0 68%);
   background-color: #00704a;
 }
-/* line 33, ../lib/sass/_nav.scss */
+/* line 52, ../lib/sass/_nav.scss */
 .footerbar .navlinks a:hover {
   border: solid #63cae1 1px;
   border-bottom: solid #63cae1 10px;
@@ -381,7 +406,7 @@ body:after {
 
 /* line 90, ../lib/sass/_slick-theme.scss */
 .slick-prev:before, .slick-next:before {
-  font-family: "Anton", monospace;
+  font-family: "Play", monospace;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -482,7 +507,7 @@ body:after {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Anton", monospace;
+  font-family: "Play", monospace;
   font-size: 50px;
   line-height: 20px;
   text-align: center;
