@@ -8,6 +8,7 @@ body {
   font-weight: normal;
   line-height: 110%;
   background: $ggcgrey;
+  color: #fff;
   overflow-y: scroll;
   cursor: default;
 } // body
@@ -50,3 +51,14 @@ section {
   padding: 100px 0;
   margin: auto;
 } // section
+
+ul {
+  @include transition;
+  width: 80%;
+  margin: auto;
+
+  li {
+    list-style-type: square;
+    margin-bottom: 5px;
+  } // li
+} // ul
