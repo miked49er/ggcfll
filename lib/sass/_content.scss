@@ -1,5 +1,5 @@
 .underline {
-  width: 90%;
+  width: 95%;
   height: 1px;
   background-color: #fff;
   margin: auto;
@@ -18,3 +18,15 @@
   display: block;
   width: 100%;
 } // highlight
+
+section {
+  ul {
+    @include susy-breakpoint($small) {
+      width: 60%;
+    } // small
+
+    @include susy-breakpoint($medium) {
+      width: 40%;
+    } // medium
+  } // ul
+} // section
