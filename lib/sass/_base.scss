@@ -7,7 +7,7 @@ body {
   font-size: 1.2rem;
   font-weight: normal;
   line-height: 110%;
-  background: $ggcgrey;
+  background: $block-silver;
   color: #fff;
   overflow-y: scroll;
   cursor: default;
@@ -48,8 +48,10 @@ p {
 
 section {
   width: 90%;
-  padding: 100px 0;
-  margin: auto;
+  padding: 20px 15px;
+  margin: 100px auto;
+  background-color: rgba($ggcgreen, .8);
+  border-radius: 25px;
 } // section
 
 ul {
