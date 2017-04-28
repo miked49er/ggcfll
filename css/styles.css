@@ -250,9 +250,21 @@ body:after {
 
 /* line 1, ../lib/sass/_splash.scss */
 .splash {
+  display: table-cell;
   width: 100%;
   height: 100vh;
   background-color: #63cae1;
+  vertical-align: middle;
+}
+/* line 8, ../lib/sass/_splash.scss */
+.splash video {
+  display: block;
+  margin: auto;
+}
+/* line 13, ../lib/sass/_splash.scss */
+.splash img {
+  display: block;
+  margin: auto;
 }
 
 /* line 1, ../lib/sass/_content.scss */
