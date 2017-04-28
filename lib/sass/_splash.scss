@@ -1,5 +1,17 @@
 .splash {
+  display: table-cell;
   width: 100%;
   height: 100vh;
   background-color: $lightblue;
+  vertical-align: middle;
+
+  video {
+    display: block;
+    margin: auto;
+  } // video
+
+  img {
+    display: block;
+    margin: auto;
+  } // img
 } // splash
