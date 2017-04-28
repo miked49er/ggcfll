@@ -3,9 +3,21 @@ $font-secondary : Roboto, sans-serif;
 
 $layout: gutter(4);
 
-$ggcgrey: #a5acb0;
 $ggcgreen: #00704a;
 $lightblue: #63cae1;
+
+// Block Colors
+$block-yellow: #f5e100;
+$block-green: #85c446;
+$block-orange: #ec6932;
+$block-blue: #0b7cbc;
+$block-silver: #a5acb0;
+
+// Block Sizes
+$single-block: 5%;
+$double-block: 10%;
+$quad-block: 20%;
+$block-height: 30px;
 
 $default-transition-property: all;
 $default-transition-duration: 1s;
