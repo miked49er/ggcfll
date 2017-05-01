@@ -1,3 +1,7 @@
+.content {
+  margin-top: 170px;
+} // content
+
 .underline {
   width: 95%;
   height: 1px;
@@ -20,13 +24,17 @@
 } // highlight
 
 section {
-  ul {
-    @include susy-breakpoint($small) {
-      width: 60%;
-    } // small
 
-    @include susy-breakpoint($medium) {
-      width: 40%;
-    } // medium
-  } // ul
+  img {
+    width: 100%;
+  } // img
+
+  @include susy-breakpoint($medium) {
+    width: 60%;
+    margin: 100px auto;
+  } // small
+
+  @include susy-breakpoint($large) {
+    width: 40%;
+  } // medium
 } // section
