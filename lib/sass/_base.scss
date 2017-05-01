@@ -30,14 +30,22 @@ h2 {
   text-align: center;
 } // h2
 
+h3 {
+  font-size: 1.4rem;
+  line-height: 160%;
+  margin-bottom: .3rem;
+} // h3
+
 a {
   @include transition;
-  font-size: .9rem;
   text-decoration: none;
   color: #fff;
-  padding: 0 .3rem;
+  border: solid #fff 1px;
+  padding: 3px;
+  line-height: 200%;
 
   &:hover {
+    border: solid $lightblue 1px;
     color: $lightblue;
   } // a:hover
 } // a
