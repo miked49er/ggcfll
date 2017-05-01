@@ -3,20 +3,14 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: $lightblue;
   vertical-align: middle;
   overflow: hidden;
-
-  @include susy-breakpoint($large) {
-    // max-height: 600px;
-  } // large
 } // splash
 
 .slide {
   @include transition;
   position: absolute;
   left: -70%;
-  // left: 0;
   top: 0;
   height: 100%;
   opacity: 0;
@@ -30,10 +24,10 @@
     left: 0;
   } // medium
 
-  @include susy-breakpoint($splashbreak) {
+  @include susy-breakpoint($large) {
     width: 100%;
     height: auto;
-  } // splashbreak
+  } // large
 } // slide
 
 .showing {
