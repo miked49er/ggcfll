@@ -29,10 +29,16 @@
   line-height: 120%;
   margin-left: 15px;
 
-  a:hover {
-    border: solid $lightblue 1px;
-    border-top: solid $lightblue 10px;
-  } // a:hover
+  a {
+    font-size: .9rem;
+    padding: 0 .3rem;
+    border: none;
+
+    &:hover {
+      border: solid $lightblue 1px;
+      border-top: solid $lightblue 10px;
+    } // a:hover
+  } // a
 
   @include susy-breakpoint($navbreak) {
     float: right;
