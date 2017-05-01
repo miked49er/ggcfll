@@ -6,6 +6,7 @@
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 42%, 23% 100%, 0 68%);
   background-color: $ggcgreen;
+  z-index: 10;
 
   h1 {
     float: left;
